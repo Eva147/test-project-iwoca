@@ -1,0 +1,37 @@
+.Applications {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .Applications {
+    padding: 0 16px;
+  }
+
+  .navigation {
+    gap: 16px;
+    padding: 16px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .Applications {
+    padding: 0 12px;
+  }
+
+  .navigation {
+    gap: 12px;
+    padding: 12px 0;
+  }
+}
